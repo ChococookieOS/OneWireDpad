@@ -1,6 +1,6 @@
 #include <OneWireDpad.h>
 
-Dpad dpad(A7, 862, 521, 776, 681);
+Dpad myDpad(A7, 862, 521, 776, 681);
 void setup() {
   Serial.begin(9600);
 
@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   Serial.print("Current direction: ");
-  switch(dpad.getButtonInput()){
+  switch(myDpad.getButtonInput()){
     case Dpad::UP:
       Serial.println("UP");
       break;
