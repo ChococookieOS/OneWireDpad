@@ -1,6 +1,9 @@
 #include <OneWireDpad.h>
 
-Dpad dpad(A7, 862, 521, 776, 681);
+//Configure Analog input to your pin
+#define ANALOG_PIN A0
+
+Dpad dpad(ANALOG_PIN, 862, 521, 776, 681);
 void setup() {
   Serial.begin(9600);
 
