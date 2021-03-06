@@ -1,4 +1,7 @@
 # OneWireDpad
+
+## Download
+The newest arduino compatible library can be found under [releases](https://github.com/ChococookieOS/OneWireDpad/releases)
 ## Schematic
 Dpad cable color | Pin functionality
 -----------------|-------------------
